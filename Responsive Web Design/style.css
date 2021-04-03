@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: black;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+}
+.img-1{
+    background: url(images/lead-banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position:center;
+
+}
+
+.img-small{
+    background: url(images/bike.jfif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    text-align: center;
+    min-height: 50vh;
+    background-position:center;
+    
+}
+.rating{
+    background: url(images/stars.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100px;
+    margin-top: 20px;
+    background-position:center;
+}
+.footerImg{
+    background: url(images/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+}
+.btn {
+    text-align: center;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    padding: 15px;
+    ;
+}
+#btn-sb{
+    margin-top: 5px;
+    background:transparent;
+    
+    padding: 15px;
+    width: 50%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+#btn-sb:hover{
+    background-color: green;
+    color: white;
+}
+.doller{
+    margin: 10px;
+    
+}
+nav a:hover{
+    background-color: #3d3a3a; 
+ }
+ 
+ .wrapper-all nav {
+    display: block;
+    
+ 
+ }
+
+ @media screen and (min-width:760px) 
+ {
+    #btn-sb{
+        margin: 5%;
+        text-align: center;
+        padding: 2px;
+    }
+    .rating{
+    text-align: center;
+    height: 100px;
+    margin-top: 10%;
+    }
+    .wrapper-all nav{
+        display: flex;
+        margin-top: 0%;
+        position: fixed;
+        width: 100%;
+      
+    
+    }
+    
+    .img-small{
+        background-position: center;
+        height: 60vh;
+        background-position: center;
+    }
+    #btn-sb{
+        width: 250px;
+    }
+ }
